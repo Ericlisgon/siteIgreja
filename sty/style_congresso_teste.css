@@ -43,7 +43,7 @@
 
   .countdown div {
       align-items: center;
-      box-shadow: 20vh;
+      box-shadow: 10vh;
       border-radius: 2vh;
       padding: 1vh;
       margin: 2px;
@@ -87,11 +87,6 @@
       background-color: #000;
   }
 
-  .logotipo {
-      width: 15vh;
-      height: 8vh;
-  }
-
   a {
       color: #fff;
       text-decoration: none;
@@ -117,7 +112,7 @@
 
   header {
       width: 100%;
-      padding: 60px 4%;
+      padding: 40px 3%;
       position: fixed;
       top: 0;
       left: 0;
