@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    height: 500vh;
+    background-color: #000;
+}
+
+.logotipo {
+    width: 15vh;
+    height: 8vh;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.9s;
+}
+
+a:hover {
+    opacity: 0.9;
+    color: #e0c875;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    width: 100%;
+    padding: 60px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 1s;
+}
+
+header.rolagem {
+    background-color: #e0c875;
+    padding: 20px 4%;
+}
+
+header.rolagem a {
+    color: #171716;
+}
+
+header.rolagem a:hover {
+    color: #fff;
+}
+
+header.rolagem a:hover {
+    color: #fff;
+}
+
+header.rolagem button {
+    background-color: #171716;
+}
+
+header i {
+    font-size: 30px;
+    color: #fff;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 0 40px;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.dropdown-menu {
+    text-decoration: none;
+    position: absolute;
+    display: none;
+}
+
+.dropdown:hover .dropdown-menu {
+    position: absolute;
+    display: block;
+    background-color: #e0c875;
+    border-radius: 20px;
+}
+
+.dropdown:hover .dropdown-menu a {
+    color: black;
+    display: flex;
+    padding: 20px;
+}
+
+.banner {
+    height: 100vh;
+    background-image: url(../imagens/bg_igreja.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    size: 4vh;
+
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.banner h1 {
+    color: #fff;
+    font-size: 4vh;
+}
+
+.banner h1 span {
+
+    color: #9d7d58;
+}
+
+.btn-sobre button {
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #9d7d58;
+    color: #fff;
+    cursor: pointer;
+    transition: .2s;
+}
